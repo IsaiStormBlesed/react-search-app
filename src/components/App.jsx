@@ -22,7 +22,7 @@ export class App extends React.Component {
 		return (
 			<div className="ui container" style={{ marginTop: '15px' }}>
 				<SearchBar onSearch={ this.onSearch }/>
-				<ImageList/>
+				<ImageList images={ this.state.images }/>
 			</div>
 		)
 	}
